@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HW 1/26</title>
+    <script src="scripts.js"></script>
+
+</head>
+
+<body>
+
+    <h1>HW 1-26</h1>
+
+    <form action="invoice.php" method="post">
+        <table>
+            <tr class="tableRows">
+                <th>ID</th>
+                <th>Item</th>
+                <th>Cost per item</th>
+                <th>Quantity ordered</th>
+            </tr>
+
+            <tr class="tableRows">
+                <td>20</td>
+                <td>Pen</td>
+                <td>2</td>
+                <td><input class="quantityOrdered" type="number" min=0 name="Pen" value="0"></td>
+            </tr>
+
+            <tr class="tableRows">
+                <td>55</td>
+                <td>Pencil</td>
+                <td>1</td>
+                <td><input class="quantityOrdered" min=0 name="Pencil" value="0"></td>
+            </tr>
+
+            <tr class="tableRows">
+                <td>57</td>
+                <td>Paper</td>
+                <td>30</td>
+                <td><input class="quantityOrdered" min=0 name="Paper" value="0"></td>
+            </tr>
+
+            <tr class="tableRows">
+                <td>60</td>
+                <td>Stapler</td>
+                <td>50</</td>
+                <td><input class="quantityOrdered" min=0 name="Stapler" value="0"></td>
+            </tr>
+        </table>
+        <input type="submit" svalue="Calculate order">
+    </form>
+
+</body>
+
+</html>
